@@ -1,8 +1,9 @@
-import { Profile } from './Profile/Profile';
+import { Profile } from './Profile/Profile.jsx';
 import user from 'components/user.json';
 
 export const App = () => {
-  const { username, tag, location, avatar, stats } = user;
+	const { username, tag, location, avatar, stats } = user;
+	
   return (
     <div>
       <Profile
