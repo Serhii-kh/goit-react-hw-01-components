@@ -3,7 +3,8 @@
   flex-direction: column;
   gap: 10px;
 
-  max-width: 500px;
+  max-width: 400px;
+		margin: auto;
   padding: 25px;
 
   background-color: rgb(189, 187, 187);
@@ -15,7 +16,8 @@
   align-items: center;
   gap: 5px;
 
-  max-width: 250px;
+  max-width: 400px;
+
   padding: 10px;
 
   background-color: #fff;
@@ -29,10 +31,9 @@
 
 .stats {
   display: inline-flex;
-  justify-content: space-around;
+  justify-content: center;
 	gap: 10px;
 
-  max-width: 250px;
 	background-color: rgb(240, 236, 236);
 }
 
