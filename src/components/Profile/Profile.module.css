@@ -1,0 +1,43 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  max-width: 500px;
+  padding: 25px;
+
+  background-color: rgb(189, 187, 187);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  max-width: 250px;
+  padding: 10px;
+
+  background-color: #fff;
+}
+
+.avatar {
+  max-width: 70px;
+
+  border-radius: 50%;
+}
+
+.stats {
+  display: inline-flex;
+  justify-content: space-around;
+	gap: 10px;
+
+  max-width: 250px;
+	background-color: rgb(240, 236, 236);
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+}
