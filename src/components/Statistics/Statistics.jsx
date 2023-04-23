@@ -1,5 +1,6 @@
 import css from 'components/Statistics/Statistics.module.css';
 import PropTypes from 'prop-types';
+import getRandomHexColor from '../../js/getRandomHexColor.js'
 
 export const Statistics = ({ title, stats }) => {
   return (
