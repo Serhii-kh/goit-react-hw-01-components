@@ -1,0 +1,25 @@
+.transaction__history {
+  table-layout: fixed;
+
+  width: 400px;
+  margin: auto;
+  padding: 15px;
+  border: solid 1px rgb(211, 221, 221);
+
+  border-collapse: collapse;
+
+}
+
+tr {
+  text-align: center;
+}
+
+th {
+      background-color: aquamarine;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid grey;
+}
