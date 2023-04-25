@@ -29,3 +29,9 @@
   width: 70px;
   border: solid 1px gray;
 }
+
+
+.label,
+.percentage {
+	color: #fff;
+}

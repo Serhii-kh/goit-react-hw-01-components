@@ -1,6 +1,7 @@
 import css from 'components/FriendList/FriendList.module.css';
 import { FriendListItem } from 'components/FriendListItem/FriendListItem.jsx';
 import PropTypes from 'prop-types';
+import { checkIsOnline } from '../../js/checkIsOnline';
 
 export const FriendList = ({ friends }) => {
   return (
@@ -8,7 +9,10 @@ export const FriendList = ({ friends }) => {
       {friends.map(({ avatar, name, id, isOnline }) => {
         return (
           <li key={id} className={css.item}>
-            <span className={css.status}></span>
+            <span
+              className={css.status}
+              style={{ background: checkIsOnline(isOnline) }}
+            ></span>
             <img
               className={css.avatar}
               src={avatar}

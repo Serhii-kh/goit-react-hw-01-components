@@ -7,15 +7,18 @@
   border: solid 1px rgb(211, 221, 221);
 
   border-collapse: collapse;
-
 }
 
 tr {
   text-align: center;
 }
 
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
 th {
-      background-color: aquamarine;
+  background-color: lightskyblue;
 }
 
 th,
