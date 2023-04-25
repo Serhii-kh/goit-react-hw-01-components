@@ -1,7 +1,7 @@
 .friend__list {
   display: flex;
   flex-direction: column;
-	gap: 10px;
+  gap: 10px;
 
   width: 400px;
   margin: auto;
@@ -11,11 +11,13 @@
 .item {
   display: inline-flex;
   align-items: center;
-	gap: 25px;
+  gap: 25px;
 }
 
 .status {
-	height: 15px;
-	width: 15px;
-	border-radius: 50%;
+  height: 15px;
+  width: 15px;
+ 
+  border-radius: 50%;
+  background-color: green;
 }
