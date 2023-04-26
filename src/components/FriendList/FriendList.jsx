@@ -3,11 +3,10 @@ import { FriendListItem } from 'components/FriendListItem/FriendListItem.jsx';
 import PropTypes from 'prop-types';
 
 export const FriendList = ({ friends }) => {
-  const { avatar, name, isOnline, id } = friends;
   return (
     <ul className={css.friend__list}>
-      {friends.map((friend)=> {
-        return <FriendListItem key={id}/>;
+      {friends.map(({ avatar, name, isOnline, id })=> {
+				return <FriendListItem key={id} avatar={avatar} name={name} isOnline={ isOnline} />;
       })}
     </ul>
   );
